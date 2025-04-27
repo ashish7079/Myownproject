@@ -5,7 +5,7 @@ import Login from "./components/Login";
 import Ashu from "./components/Ashu";
 import Asu from "./components/Asu";
 import Niche from "./components/Niche";
-import Set from "./components/set";
+import Set from "./components/Set";
 
 function App() {
   const [count, setCount] = useState(0)
