@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+/* *{
+  background-color: aqua;
+} */
+ #parent3{
+  background-color: coral;
+ 
+} 
+#parent2{
+  display: flex;
+  flex-direction: row;
+  gap: 4pc;
+  color: chartreuse;
+  margin-left: 3pc;
+  height: 3pc;
+}
+#ashi3,#vedio{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10pc;
+  gap: 5pc;
+}
+
+#ashi{
+  background-color: #418d7d;
+}
+#ashi1{
+  height: 10pc;
+  width: 50pc;
+  margin-top: 8pc;
+}
+#ashi2{
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 10pc;
+  margin-right: 5pc;
+  height: 20px;
+  color: crimson;
+}
+#vedio{
+  margin-top: 15pc;
+}
+#vedio2{
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 3pc;
+  margin-right: 5pc;
+  height: 20px;
+  color: crimson;
+}
+#upperfive3{
+  margin-left: 7pc;
+  margin-top: 4pc;
+  color: white;
+}
+#upperfive2{
+  flex-direction: row;
+  display: flex;
+}
+
+#ashi6{
+margin-top: 15pc;
+}
+#ashi4{
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 3pc;
+  margin-right: 5pc;
+  height: 20px;
+  color: crimson;
+  width: 40pc;
+  margin-left: 20pc;
+}
+#ashi5{
+  margin-left: 25pc;
+}
+
+
+/*   for mobile  */
+@media screen and (max-width : 1416px) {
+  #ashi3{
+    flex-direction: column;
+    width: 50pc;
+  }
+  
+  #vedio{
+    flex-direction: column;
+    display: flex;
+  }
+  #vedio2{
+    margin-bottom: 10pc;
+  }
+  #vedio1{
+    margin-left: 5px;
+  }
+  #parent2{
+    display: flex;
+    flex-direction: column;
+    height: 10pc;
+  }
+  #anything{
+    margin-top: 25px;
+  }
+  #login10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 15px;
+  }
+  #login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-right: 5pc;
+  }
+  
+}
+@media screen and (max-width : 986px) {
+  #ashi5{
+ width: 50pc;
+  }
+ #ashi6{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ }
+ #ashi1,#ashi2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-right: 15pc;
+  width: 50pc;
+ }
+}
+
+@media screen and (max-width : 725px) {
+  #ashi3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    margin-right: 23px;
+  }
+  #ashi10{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+   width: 5px;
+  }
+}
+#cot91{
+  color: red;
+}
+
+
+#love:hover,#abou:hover,#cont:hover{
+  color: fuchsia;
+  background-color: brown;
+}
+#suru:hover,#ashi2:hover,#vedio2:hover,#ashi4:hover{
+  color: blue;
+}
+
+#cot91:hover{
+color: blueviolet;
+}
