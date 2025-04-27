@@ -1,7 +1,7 @@
 import { useState } from "react"
 import './App.css'
 import { BrowserRouter as Router , Routes ,Route ,Link } from "react-router-dom";
-import Login from "./components/login";
+import Login from "./components/Login";
 import Ashu from "./components/Ashu";
 import Asu from "./components/Asu";
 import Niche from "./components/Niche";
